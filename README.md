@@ -1,36 +1,38 @@
 
+
+
 ---
 
 🎯 Fraction Quiz (C++)
 
-A console-based quiz game that sharpens your fraction-to-percentage calculation skills while tracking accuracy and time with a clean workflow.
+A console-based quiz game to sharpen your fraction-to-percentage calculation skills, tracking accuracy and timing while keeping your learning engaging.
 
 
 ---
 
 ✨ Features
 
-✅ Randomized fraction questions up to your chosen max numerator & denominator
+✅ Random fraction questions up to your chosen max numerator & denominator
 ✅ Clean truncation to 2-decimal percentages for answers
 ✅ Tracks:
 
-Correct / Wrong counts
+✅ Correct / ❌ Wrong counts
 
-Per-question time
+⏱️ Per-question time
 
-Total active answering time
+⌛ Total answering time
 
-Overall session time
+🕒 Overall session time
 
 
 ✅ User-friendly commands:
 
 q, quit – Exit the quiz
 
-result – View your current score and time stats anytime
+result – View current score & timing anytime
 
 
-✅ Clear end summary for your progress tracking and improvement.
+✅ Clear summary report at the end for your learning progress.
 
 
 ---
@@ -50,65 +52,57 @@ g++ Quizz.cpp -std=c++17 -O2 -o quiz
 
 ./quiz
 
-Follow on-screen instructions and start sharpening your fraction percentage speed!
+Follow on-screen instructions to input your max numerator/denominator and begin answering.
 
 
 ---
 
 🛠️ How It Works
 
-🔹 Input: Max numerator & denominator (≥ 1) to generate all fraction combinations.
-🔹 Shuffling: Uses a high-quality random generator for non-repeating questions.
-🔹 User Answer: Provide your percentage value truncated to two decimals.
-🔹 Commands: Check progress or quit anytime without losing prior data.
-🔹 Timing: Measures:
-
-Time per question
-
-Total answer time
-
-Total elapsed time
-
-
-🔹 Formatting: Removes unnecessary trailing zeros for clean display.
+🔹 Input: You enter max numerator and denominator (≥ 1).
+🔹 Question Pool: Generates and shuffles all (numerator / denominator) combinations randomly.
+🔹 Answer Format: Provide your percentage value truncated to 2 decimals.
+🔹 Commands: Check progress (result) or exit (q, quit) anytime.
+🔹 Timing: Tracks time per question, total active answering time, and full session time.
+🔹 Formatting: Displays answers cleanly by removing unnecessary trailing zeros.
 
 
 ---
 
 🖥️ Example Session
 
-Enter maximum numerator and denominator values (both >= 1), separated by space: 4 5
+Enter maximum numerator and denominator values (both >= 1), separated by space: 5 4
 
 🎮 Fraction Quiz Started! Type 'q', 'quit', or 'result' anytime.
 
-❓ Calculate: 1 / 2 = 50
-✅ Correct! ⏱️ 3 sec
-
-❓ Calculate: 2 / 5 = result
-🔹 Answered: 1, Correct: 1, Wrong: 0, Accuracy: 100%
-🔹 Total Time: 3 sec
-
-❓ Calculate: 2 / 5 = 40
+❓ Calculate: 3 / 4 = 75
 ✅ Correct! ⏱️ 2 sec
+
+❓ Calculate: 1 / 3 = result
+Answered: 1, Correct: 1, Wrong: 0, Accuracy: 100%
+Total Time: 2 sec
+
+❓ Calculate: 1 / 3 = 33.33
+✅ Correct! ⏱️ 3 sec
 
 ...
 🏁 Quiz Complete!
-🔹 Total Questions: 15
-✅ Correct: 14
+Total Questions: 20
+✅ Correct: 19
 ❌ Wrong: 1
-🎯 Accuracy: 93%
-⏱️ Total Time: 85 sec
-🕒 Overall Session Time: 92 sec
+🎯 Accuracy: 95%
+⏱️ Total Answering Time: 110 sec
+🕒 Overall Session Time: 120 sec
 
 
 ---
 
 🚀 Potential Extensions
 
-✨ Multiple-choice mode for quick learning
-✨ Difficulty levels with adaptive timing
-✨ Export results to .csv for tracking progress
-✨ GUI or web-based adaptation using the same logic
+✨ Add multiple-choice mode
+✨ Difficulty levels with time limits
+✨ Export results to CSV for tracking
+✨ Web or GUI-based interface using the same quiz logic
 
 
 ---
@@ -129,5 +123,7 @@ Samir Yogendra Meshram
 
 ---
 
-If you want, I can also prepare a clean LICENSE file and GitHub labels and workflow badge suggestions to further professionalize your repository, or design a project logo badge for the top of your README. Let me know if you need these next to make your repo fully professional for your portfolio and internship applications.
+✅ Ready to improve your fraction calculation speed? Clone, compile, and enjoy your learning! 🚀
 
+
+---
